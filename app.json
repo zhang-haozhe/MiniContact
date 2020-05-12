@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "contactApp",
-    "slug": "contactApp",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "Mini Contacts",
+    "slug": "Mini-Contacts",
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.Haozhe.MiniContacts",
+      "versionCode": 1
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,9 +18,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     }
